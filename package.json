@@ -1,0 +1,10 @@
+{
+  "devDependencies": {
+    "cypress": "^13.6.6"
+  },
+  "scripts": {
+    "open": "node_modules/.bin/cypress open",
+    "cy:chrome:home": " cypress run -b chrome --spec 'cypress/e2e/ui/premium/premium_home.cy.js'",
+    "cy:firefox:home": " cypress run -b firefox --spec 'cypress/e2e/ui/premium/premium_home.cy.js'"
+  }
+}
